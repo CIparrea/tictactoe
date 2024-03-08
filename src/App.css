@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.modal-container {
+  position: absolute;
+  width: 330px;
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.94);
+}
+
+.close-add{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.close{
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.players{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.onePlayer, .twoPlayers{
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#onePlayerGlow{
+  box-shadow: 1px 1px 10px blue, 0 0 15px blue, 0 0 0.2em blue;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.073);
+  transition: 0.3s;
+  font-size: 33px;
+}
+
+#twoPlayersGlow{
+  box-shadow: 1px 1px 10px rgb(255, 14, 58), 0 0 15px rgb(255, 14, 58), 0 0 0.2em rgb(255, 14, 58);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.073);
+  transition: 0.3s;
+  font-size: 33px;
+}
+
+#noPlayerGlow{
+  box-shadow: none;
+  transition: 0.3s;
+}
+
+.score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 50px;
+  height: 190px;
+  font-family: "Ubuntu", sans-serif;
+  width: 230px;
+}
+.scoreResult{
+  font-size:70px;
+}
+
+.turnTracker{
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+#X{
+  text-shadow: 1px 1px 10px rgb(0, 76, 255), 0 0 5px rgb(0, 76, 255), 0 0 0.2em rgb(0, 76, 255);
+}
+
+#O{
+  text-shadow: 1px 1px 10px rgb(255, 14, 58), 0 0 5px rgb(255, 14, 58), 0 0 0.2em rgb(255, 14, 58);
+
+}
+
+#one{
+  visibility: hidden;
 }

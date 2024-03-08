@@ -1,0 +1,38 @@
+.board{
+    background-color: white;
+    height: 210px;
+    width: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px 20px 0px;
+    text-align: white;
+}
+
+
+.row{
+    box-sizing: border-box;
+    height: 70px;
+    background-color: white;
+    margin: 2px;
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: white;
+}
+
+#X{
+    text-shadow: 1px 1px 10px rgb(0, 76, 255), 0 0 5px rgb(0, 76, 255), 0 0 0.2em rgb(0, 76, 255);
+}
+
+#O{
+    text-shadow: 1px 1px 10px rgb(255, 14, 58), 0 0 5px rgb(255, 14, 58), 0 0 0.2em rgb(255, 14, 58);
+
+}
+
+
+
+

@@ -1,0 +1,24 @@
+.newGameButton{
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    height: 30px;
+    width: 100px;
+    color: white
+}
+
+#newGameGlow{
+    box-shadow: 1px 1px 5px rgb(248, 255, 34), 0 0 15px rgb(248, 255, 34), 0 0 0.2em rgb(248, 255, 34);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.073);
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+#noGlow{
+    box-shadow: none;
+    transition: 0.3s;
+}
+
