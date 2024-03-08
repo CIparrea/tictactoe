@@ -1,6 +1,6 @@
 .square{
-    height: 70px;
-    width: 67px;
+    height: 80px;
+    width: 77px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -12,4 +12,4 @@
     padding: 0px;
     border: 0px;
     color: white;
-}
+} 
