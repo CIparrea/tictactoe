@@ -1,7 +1,8 @@
 # Neon Tic Tac Toe
 ![alt text](https://github.com/CIparrea/tictactoe/blob/main/public/logo.png)
 
-Tic Tac Toe is a classic game where two players take turns marking spaces in a 3x3 grid, aiming to get three of their marks in a row, column, or diagonal. This project implements a simple web-based version of Tic Tac Toe using React, featuring a visually appealing neon-themed interface and the option to play against another player or against the computer.
+[Tic Tac Toe](https://tictactoeiparrea.netlify.app/)
+ is a classic game where two players take turns marking spaces in a 3x3 grid, aiming to get three of their marks in a row, column, or diagonal. This project implements a simple web-based version of Tic Tac Toe using React, featuring a visually appealing neon-themed interface and the option to play against another player or against the computer.
 
 ## Features
 
