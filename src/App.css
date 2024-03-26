@@ -118,3 +118,13 @@
 #one{
   visibility: hidden;
 }
+
+.gitHub {
+  color: rgba(255, 255, 255, 0.513);
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a{
+  color: white;
+}

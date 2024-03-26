@@ -70,6 +70,12 @@ function App() {
                 2 Players
             </button>
           </div>
+          <a href="https://github.com/CIparrea" target="_blank">
+          <div className="gitHub">
+            Cesar Iparrea's Github
+            </div>
+
+          </a>
         </div>
       )}
     </div>
